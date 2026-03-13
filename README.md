@@ -1,4 +1,4 @@
-# Auto tests for the Yandex.Disk service
+# Word Frequency Analysis Service
 
 ## 1. Clone repository
 ``` bash
@@ -20,3 +20,9 @@ If poetry command is not found (common on Windows), use:
 python -m poetry install
 ```
 
+## 4. Starting the service
+
+```bash
+poetry run python -m app.main
+```
+After launch, the server will be available at: http://127.0.0.1:8000/docs
